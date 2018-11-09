@@ -9,6 +9,7 @@ Programmer: Steven Siddall
 
 This class represents a board for a single player. Contains a two dimensional
 array of cells
+ A board has letters going up and down and numbers going across
 */
 
 public class Board
