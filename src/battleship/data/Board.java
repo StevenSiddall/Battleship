@@ -4,6 +4,13 @@ package battleship.data;
 import battleship.exceptions.InvalidCoordinateException;
 import java.text.DecimalFormat;
 
+/**
+Programmer: Steven Siddall
+
+This class represents a board for a single player. Contains a two dimensional
+array of cells
+*/
+
 public class Board
 {
     /**2 dimensional array of cells to represent board*/

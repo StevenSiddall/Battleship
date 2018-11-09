@@ -4,20 +4,32 @@ import battleship.exceptions.InvalidCoordinateException;
 import battleship.exceptions.InvalidShipSizeException;
 import battleship.exceptions.InvalidShipPlacementException;
 
+/**
+Programmer: Steven Siddall
 
+This class represents a single ship in a game of battleship.
+
+*/
 public class Ship
 {
-    /**unique ID that will be assigned to the next ship*/
+    /**unique ID that will be assigned to the next ship. Note: Current
+    implementation of the main game does not use this*/
     private static int nextID = 0;
+    
     /**number of spaces this ship takes up*/
     private int size;
+    
     /**array of cells that this ship is on*/
     private Cell[] cells;
+    
     /**indicate whether or not the ship is afloat*/
     private boolean afloat;
+    
     /**name of this ship*/
     private String name;
-    /**unique ID for identifying ships*/
+    
+    /**unique ID for identifying ships. Note: Not used in current implementation
+    of main game*/
     private int id;
 
     /**
@@ -33,11 +45,15 @@ public class Ship
         nextID++;
     }
 
+    /**
+    Constructor that takes only the size of the ship
+    @param newSize size of the ship. Must be 2 to 5 inclusive
+    */
     public Ship(int newSize)
     {
         if(!setSize(newSize))
         {
-                size = 0;
+            size = 0;
         }
         cells = new Cell[size];
         afloat = true;
@@ -367,6 +383,16 @@ public class Ship
         return true;
     }
 
+    /**
+    Verifies that the cell array is the correct size and placement.
+    Checks the following is true:
+        The array is not null
+        All cells in the array are not null
+        All cell placement is oriented vertically or horizontally
+        No cells are duplicates
+        Cells are consecutive
+    @throws InvalidShipPlacementException 
+    */
     private void checkValidShipPlacement() throws InvalidShipPlacementException
     {
         //check if array is null

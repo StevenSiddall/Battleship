@@ -7,16 +7,39 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+Programmer: Steven Siddall
+
+This class represents a single player in a battleship game with their own name,
+board, ships, etc. A player's board is the board that records all previous
+shots that THIS PLAYER has fired AT THE OTHER PLAYER. This player object's ships,
+however, are this player's own ships in the game.
+
+Ship Identifiers:
+0: Carrier. Takes up 5 cells
+1: Battleship. Takes up 4 cells
+2: Cruiser. Takes up 3 cells
+3: Submarine. Takes up 3 cells
+4: Patrol Boat. Takes up 2 cells
+*/
+
 public class Player
 {
     /**the name of the player*/
     private String name;
+    
     /**board specific to this player's ships and shots*/
     private Board board;
-    /**coordinates of the computers next recommended shot*/
+    
+    /**If the player is a human this is the computers recommendation for
+    where to shoot next if the programmer chooses to implement recommendations.
+    If this player is a computer then this is where the computer will shoot
+    next*/
     private Coord nextRecommendation;
+    
     /**keeps track of the longest opponent ship still afloat*/
     private int maxOpponentShipLength;
+    
     /**used in salvo mode. represents the number of shots left for this player
     during this turn.*/
     private int remainingShots;
@@ -32,6 +55,7 @@ public class Player
     private Ship[] ships;
 
     //constants for point calculation formulas:
+    //***MOST OF THESE ARE NOT CURRENTLY BEING USED***
 
     /**denominator value for 'a' term of point formula for hit cells*/
     private static double A_DENOM = 1.9;
