@@ -52,8 +52,14 @@ import javafx.util.Duration;
 
 
 /**
+Programmer: Steven Siddall
+ @author Steven Siddall
 
- @author Steven
+ This is the main driver class for the Battleship game with GUI.
+
+ Certain GUI elements are private instance variables of the whole class in order to avoid enormous parameter lists.
+
+
  */
 
 public class BattleshipGUI extends Application

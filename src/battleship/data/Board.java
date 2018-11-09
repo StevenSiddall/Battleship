@@ -6,6 +6,7 @@ import java.text.DecimalFormat;
 
 /**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This class represents a board for a single player. Contains a two dimensional
 array of cells

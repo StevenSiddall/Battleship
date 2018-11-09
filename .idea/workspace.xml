@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f50e1c-b20a-4f59-8334-4c423bb636b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Battleship.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Battleship.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/data/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/data/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/data/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/data/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/data/Coord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/data/Coord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/data/FireResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/data/FireResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/data/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/data/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/data/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/data/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/exceptions/BattleshipException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/exceptions/BattleshipException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/exceptions/InvalidCoordinateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/exceptions/InvalidCoordinateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/exceptions/InvalidShipPlacementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/exceptions/InvalidShipPlacementException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/exceptions/InvalidShipSizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/exceptions/InvalidShipSizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/gui/BShipButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/gui/BShipButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BattleshipGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BattleshipGUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,52 +27,39 @@
     <session id="-966764517">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="138" />
+          <entry key="java" value="704" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="138" />
+          <entry key="JAVA" value="704" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/BattleshipGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="1429" column="20" selection-start-line="1429" selection-start-column="20" selection-end-line="1429" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#61907#0" expanded="true" />
-                <element signature="e#61876#61877#0" expanded="true" />
-                <element signature="e#61904#61905#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +67,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/BattleshipGUI.java" />
+        <option value="$PROJECT_DIR$/src/battleship/gui/BShipButton.java" />
+        <option value="$PROJECT_DIR$/src/battleship/data/Player.java" />
+        <option value="$PROJECT_DIR$/src/battleship/data/Ship.java" />
+        <option value="$PROJECT_DIR$/src/battleship/data/FireResult.java" />
+        <option value="$PROJECT_DIR$/src/battleship/data/Coord.java" />
+        <option value="$PROJECT_DIR$/src/battleship/data/Cell.java" />
         <option value="$PROJECT_DIR$/src/battleship/data/Board.java" />
+        <option value="$PROJECT_DIR$/src/battleship/exceptions/BattleshipException.java" />
+        <option value="$PROJECT_DIR$/src/battleship/exceptions/InvalidCoordinateException.java" />
+        <option value="$PROJECT_DIR$/src/battleship/exceptions/InvalidShipPlacementException.java" />
+        <option value="$PROJECT_DIR$/src/battleship/exceptions/InvalidShipSizeException.java" />
       </list>
     </option>
   </component>
@@ -91,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +115,39 @@
               <item name="Battleship" type="b2602c69:ProjectViewProjectNode" />
               <item name="Battleship" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleship" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Battleship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Battleship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Battleship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Battleship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Battleship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -115,6 +155,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,7 +166,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,6 +250,8 @@
       <workItem from="1541748944886" duration="118000" />
       <workItem from="1541749096896" duration="629000" />
       <workItem from="1541749762034" duration="2161000" />
+      <workItem from="1541793397506" duration="1346000" />
+      <workItem from="1541795124651" duration="1124000" />
     </task>
     <servers />
   </component>
@@ -233,19 +276,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2908000" />
+    <option name="totallyTimeSpent" value="5378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
@@ -257,6 +299,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32939914" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,22 +318,87 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/battleship/data/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/battleship/gui/BShipButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/BattleshipGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="1429" column="20" selection-start-line="1429" selection-start-column="20" selection-end-line="1429" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#61907#0" expanded="true" />
-            <element signature="e#61876#61877#0" expanded="true" />
-            <element signature="e#61904#61905#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/data/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/data/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/data/FireResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/data/Coord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/data/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/data/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/exceptions/BattleshipException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/exceptions/InvalidCoordinateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/exceptions/InvalidShipPlacementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/exceptions/InvalidShipSizeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>

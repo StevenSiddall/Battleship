@@ -2,6 +2,7 @@ package battleship.exceptions;
 
 /**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This is the super class for all battleship exceptions. This specific type of
 exception should never be thrown. We use it when we want to catch all types of 

@@ -6,8 +6,12 @@
 package battleship.gui;
 import battleship.data.Coord;
 /**
+Programmer: Steven Siddall
+ @author Steven Siddall
 
- @author Steven
+This class represents a single button on the GUI battleship board.
+
+It extends the JavaFX button class so that it can store its own coordinates as well
  */
 public class BShipButton extends javafx.scene.control.Button
 {

@@ -9,6 +9,7 @@ import java.util.Random;
 
 /**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This class represents a single player in a battleship game with their own name,
 board, ships, etc. A player's board is the board that records all previous

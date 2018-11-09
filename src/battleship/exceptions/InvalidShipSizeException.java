@@ -1,7 +1,8 @@
 package battleship.exceptions;
 
-/*
+/**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This is an exception class for the Battleship game.
 This type of exception should be thrown when a ship or array of cells of invalid

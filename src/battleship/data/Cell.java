@@ -5,6 +5,7 @@ import battleship.exceptions.InvalidCoordinateException;
 
 /**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 Class representing a single cell (square) in a game of battleship
 

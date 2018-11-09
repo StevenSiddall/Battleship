@@ -1,7 +1,8 @@
 package battleship.data;
 
-/*
+/**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This class represents a set of information about the result of a battleship
 shot.

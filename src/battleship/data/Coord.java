@@ -5,6 +5,7 @@ import battleship.exceptions.InvalidCoordinateException;
 
 /**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 Class representing a set of x and y coordinates
 */

@@ -6,6 +6,7 @@ import battleship.exceptions.InvalidShipPlacementException;
 
 /**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This class represents a single ship in a game of battleship.
 

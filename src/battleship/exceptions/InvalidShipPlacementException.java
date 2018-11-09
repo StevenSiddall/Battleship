@@ -1,7 +1,8 @@
 package battleship.exceptions;
 
-/*
+/**
 Programmer: Steven Siddall
+ @author Steven Siddall
 
 This is an exception class that represents an invalid ship placement.
 Should be throws when someone tries to place a ship on a board when the whole
